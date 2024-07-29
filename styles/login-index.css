@@ -1,0 +1,20 @@
+#top-bar{
+    height: 50px;
+}
+#box-top-bar{
+    height: 30px;
+}
+#box-top-bar > p{
+    text-align: center;
+    color: white;
+    margin-top: 3px;
+}
+
+@media screen and (max-width:768px) {
+    #pass-desc{
+        font-size: 8px;
+    }
+    #user-desc{
+        font-size: 8px;
+    }
+}

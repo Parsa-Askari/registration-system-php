@@ -1,0 +1,50 @@
+#top-bar{
+    height: 90px;
+
+    border-bottom: gray;
+}
+#side-bar{
+    /* width: 200px; */
+    height: 100%;
+}
+#avatar{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    
+}
+#avatar-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    
+    
+}
+#avatar-box:hover{
+    cursor: pointer;
+}
+.option{
+    color: white;
+    text-align:  center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+}
+.option:hover{
+    cursor: pointer;
+    color: gray;
+}
+#profile{
+    border-top: 1px solid gray;
+}
+#profile-img{
+    border-bottom: 0px;
+}
+#logout{
+    margin-bottom: 100px;
+}
+.info{
+    margin-top: 22px;
+    /* width: 500px; */
+}

@@ -23,7 +23,7 @@ if(isset($_POST['submit']))
             $_SESSION['password']=$password;
         
             echo "<script>alert('welcome')</script>";
-            echo("<script>window.location = './admindashboard';</script>");
+            echo("<script>window.location = './userdashboard';</script>");
         }
         
     }
